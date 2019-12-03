@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Broom</title>
+        <style type="text/css">
+            @font-face{
+            font-family:'CoochieNando';
+            src:url('tipo/CoochieNando/CoochieNando.eot'),
+                url('tipo/CoochieNando/CoochieNando.svg'),
+                url('tipo/CoochieNando/CoochieNando.ttf'),
+                url('tipo/CoochieNando/CoochieNando.woff');
+        }
+            *{
+                margin: 3px;
+                padding: 0;
+            }
+            body{background:bisque;}
+            body>p{
+            position: fixed;
+            font-family: 'CoochieNando';
+            font-size: 25vw;
+            color: crimson;
+
+        }
+            p{
+                position: fixed;
+                font-family: 'CoochieNando';
+                font-size: 10vw;
+            }
+            p[title="b1"]{
+                top: 0;
+                left: 0;
+            }
+            p[title="b2"]{
+                top: 0;
+                right: 0;
+            }
+            p[title="b3"]{
+                transform: scale(-1,1);
+                bottom: 0;
+                left: 0;
+                transform: rotate(180deg)
+            }
+            p[title="b4"]{
+                bottom: 0;
+                right: 0;
+            }
+            p[title="b5"]{
+                bottom: 33%;
+                right: 35%;
+                font-size: 35vw;
+            }
+            p[title="b6"]{
+                top: 25%;
+                right: 20%;
+                font-size: 18vw;
+                transform: rotate(180deg);
+            }
+            p[title="b7"]{
+                top: 25%;
+                left: 20%;
+                font-size: 18vw;
+            }
+            p[title="b8"]{
+                bottom: 25%;
+                left: 20%;
+                font-size: 18vw;
+                transform: rotate(180deg);
+            }
+            p[title="b9"]{
+                bottom: 25%;
+                right: 20%;
+                font-size: 18vw;
+            }
+            div[title="c1"]{
+                position:fixed;
+                bottom: 0;
+                left: 0;
+                width: 100px;
+                height: px;
+            }
+            div p{
+            font-family: "Georgia";
+            position: absolute;
+            color: crimson;
+        }
+        div p:first-child{
+            font-size: 30px;
+            left: 10;
+            top: 0;
+        }
+        div p:last-child{
+            right: -10px;
+            top: -43px;
+            font-size: 20vw;
+            transform: scale(-1,1)
+        }
+        div[title="c1"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 30px;
+            left: 40%;
+        }
+         div[title="c2"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 43%;
+            left: 5%;
+            transform: rotate(180deg);
+        }
+            div[title="c3"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            bottom: 15vw;
+            left: 40vw;
+        }
+            div[title="c4"]{
+            transform: rotate(180deg);
+            transform: scale(1,-1);
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            bottom: 45%;
+            right: 7%;
+        }
+            div[title="c4"] p:first-child{
+                transform: scale(-1,1);
+            }
+            div[title="c1"] p:last-child{
+                transform: rotate(360deg);
+            }
+            div[title="c2"] p:last-child{
+                transform: rotate(360deg);
+            }
+            div[title="c3"] p:last-child{
+                transform: rotate(360deg);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <p title="b1">B</p>
+        <p title="b2">B</p>
+        <p title="b3">M</p>
+        <p title="b4">M</p>
+        <p title="b5">o</p>
+        <p title="b6">R</p>
+        <p title="b7">R</p>
+        <p title="b8">O</p>
+        <p title="b9">O</p>
+        
+        <div title="c1">
+            <p>vol.</p>
+            <p>6</p>
+        </div>
+        <div title="c2">
+            <p>NO.</p>
+            <p>1</p>
+        </div>
+        <div title="c3">
+            <p>NO.</p>
+            <p>1</p>
+            </div>
+            
+         <div title="c4">
+            <p>vol.</p>
+            <p>6</p>
+        </div>
+    </body>
+</html>
